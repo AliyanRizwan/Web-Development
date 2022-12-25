@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WAD Assignment 1 Q1</title>
+</head>
+<style>
+    table {
+        margin: auto;
+        border: 6px double black;
+
+    }
+
+    .first,
+    .second,
+    .third {
+        width: 80px;
+        height: 150px;
+    }
+
+    .first {
+        background-color: red;
+    }
+
+    .second {
+        background-color: orange;
+    }
+
+    .third {
+        background-color: green;
+    }
+
+    .fourth {
+        background-color: pink;
+        height: 40px;
+        transform: skewX(15deg);
+
+    }
+
+    .triangle {
+
+        margin-top: -67px;
+        margin-left: -7px;
+        margin-bottom: 14px;
+        border-top: 25px solid transparent;
+        border-left: 50px solid yellow;
+        border-bottom: 25px solid transparent;
+
+    }
+
+    .circle {
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        border: 5px solid black;
+        background: blue;
+        margin-top: -67px;
+        margin-bottom: 6px;
+        margin-left: -7px;
+        color: white;
+        text-align: center;
+        line-height: 47px;
+    }
+
+    .circle:hover {
+        background-color: red;
+    }
+
+    h6 {
+        text-align: center;
+    }
+
+    @media screen and (width:375px) and (height:667px) {
+        table {
+            border: 6px dotted black;
+
+        }
+
+        .triangle {
+            display: none;
+        }
+
+        .circle {
+            display: none;
+        }
+
+        .second {
+            display: none;
+        }
+
+        .first {
+            border-right: 20px solid white;
+        }
+
+        .third {
+            border-right: 20px solid white;
+        }
+
+        .fourth {
+            border-right: 30px solid white;
+        }
+    }
+
+
+    @media screen and (width:414px) and (height:896px) {
+        table {
+            padding: 15px;
+        }
+
+        .third {
+            display: none;
+        }
+
+        .first {
+            border-right: 20px solid white;
+            border-bottom: 15px solid white;
+
+        }
+
+        .second {
+            border-right: 20px solid white;
+            border-bottom: 15px solid white;
+
+        }
+
+        .fourth {
+            border-right: 30px solid white;
+        }
+
+        .triangle {
+            margin-left: 10px;
+        }
+    }
+
+    @media screen and (width:390px) and (height:844px) {
+        table {
+            padding: 15px;
+        }
+
+        .circle {
+            display: none;
+        }
+
+        .first {
+            width: 40px;
+            border-right: 30px solid white;
+            border-bottom: 15px solid white;
+        }
+
+        .second {
+            width: 60px;
+            border-right: 20px solid white;
+            border-bottom: 15px solid white;
+        }
+
+        .third {
+            width: 60px;
+            border-right: 20px solid white;
+            border-bottom: 15px solid white;
+        }
+
+        .fourth {
+            border-right: 30px solid white;
+        }
+
+        .triangle {
+            margin-left: -24px;
+        }
+    }
+</style>
+
+<body>
+    <table>
+        <tr>
+            <td class="first">
+                <div class="triangle"></div>
+                First
+            </td>
+
+            <td class="second">Second</td>
+            <td class="third">
+                <div class="circle"> Circle</div>
+                Third
+            </td>
+
+        </tr>
+        <tr>
+            <td colspan="2" class="fourth">Fourth</td>
+        </tr>
+    </table>
+    <h6>My Roll Number is L1F20BSCS0029 </h6>
+</body>
+
+</html>
